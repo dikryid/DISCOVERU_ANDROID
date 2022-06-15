@@ -1,0 +1,71 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".CameraProcess" >
+
+    <Button
+        android:id="@+id/btnPhoto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/start_camera"
+        android:layout_centerInParent="true"/>
+
+    <TableLayout
+        android:id="@+id/menuCamera"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/imageDetails"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/message"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp" />
+
+        <ImageView
+            android:id="@+id/showImg"
+            android:layout_width="320dp"
+            android:layout_height="240dp"
+            android:layout_below="@+id/imageDetails"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:scaleType="fitXY" />
+
+        <TextView
+            android:id="@+id/txtTemplate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fill_name"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_marginTop="50dp"/>
+
+
+        <EditText
+           android:id="@+id/txtName"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:ems="10"
+            android:clickable="false"
+            android:cursorVisible="false"
+            android:focusable="false"
+            android:focusableInTouchMode="false" />
+
+
+        <Button
+            android:id="@+id/btnMulai"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/menu_inspect" />
+    </TableLayout>
+
+</RelativeLayout>

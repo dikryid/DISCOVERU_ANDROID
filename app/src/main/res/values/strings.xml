@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+   Copyright 2016 Google Inc.
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+-->
+<resources>
+  <string name="app_name">DISCOVERU</string>
+  <string name="menu">Menu</string>
+  <string name="info_menu">Please press the menu option below</string>
+  <string name="menu_signin">Sign In</string>
+  <string name="menu_register">Register</string>
+  <string name="menu_exit">Exit App</string>
+  <string name="menu_inspect">Locate a Device Position</string>
+  <string name="menu_logout">Log Out</string>
+  <string name="info_menu_inspect">Discover Received Signal Strength Indicator from Xbee / BLE Device to Locate Position</string>
+  <string name="info_menu_inspect2">Instructions: USE TWO FINGERS TO ZOOM IN OR ZOOM OUT AND ONE FINGER TO NAVIGATE THE MAP</string>
+  <string name="info_menu_logout">Press here to logout from the system</string>
+  <string name="info_menu_signin">Please sign in to find out the location of the sender and receiver</string>
+  <string name="info_menu_register">Please enter personal data and register to access the application</string>
+  <string name="info_menu_exit">Click this menu to exit the application</string>
+
+  <string name="sign_in">Sign In</string>
+  <string name="register">Register</string>
+  <string name="email_addr">E-mail Address</string>
+  <string name="password">Password</string>
+  <string name="first_name">First Name</string>
+  <string name="last_name">Last Name</string>
+  <string name="age">Age</string>
+  <string name="male">Male</string>
+  <string name="female">Female</string>
+  <string name="warn_age">Warning: Enter the age column must be in the form of numbers</string>
+  <string name="warn_register_failed">Warning: the registration process was not successful</string>
+  <string name="info_register_success">Information: the registration process has been successful, please sign in</string>
+  <string name="warn_email_address">Warning: the user for the e-mail address is already in the system, please use a different e-mail address</string>
+  <string name="warn_user_not">Warning: the user and/or password is not recognized by the system</string>
+  <string name="confirm_exit_app">Are you sure you want to Exit the Application ?</string>
+  <string name="confirm_logout">Are you sure you want to Log Out ?</string>
+  <string name="confirm_quit_dashboard">Are you sure you want to Quit This Map ?</string>
+    <string name="confirm_outcamera">Are you sure you want to cancel the camera results, and do not continue with the inspect the eyes stage ?</string>
+  <string name="title_about">About</string>
+  <string name="start_camera">Start Camera</string>
+
+
+  <string name="info_inspect">Only Eye positions in the [RED] area will be inspected by the system, if not, please try again</string>
+  <string name="fill_name">the identity of the owner of the eye :</string>
+
+  <string name="kosong">------------------------------------------------------------------------</string>
+
+
+</resources>
